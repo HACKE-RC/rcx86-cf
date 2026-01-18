@@ -6,6 +6,12 @@
       url:"https://zathura.dev",
       git:"https://github.com/ZathuraDbg/ZathuraDbg"
     },
+   {
+     "name": "BandSox",
+     "description": "Sanboxes for AI agents and humans.",
+     "category": "Tooling",
+     git: "https://github.com/hacke-rc/bandsox"
+   },
     {
       "name": "OptimistOS",
       "description": "A hobby operating system built for fun and to deeply understand low-level computer science concepts.",
@@ -29,12 +35,6 @@
       "description": "Assembler and VM translator for the HACK VM language as part of the Nand2Tetris course.",
       "category": "Toolchain",
       git:'https://github.com/HACKE-RC/vm-translator',
-    },
-    {
-      "name": "PEritux",
-      "description": "A simple C++ parser for the Portable Executable (PE) file format used in Windows.",
-      "category": "Reverse Engineering",
-      git:'https://github.com/HACKE-RC/peritux'
     },
     {
       "name": "Awesome Reversing",

@@ -7,15 +7,11 @@ const About = () => {
   return (
   <div className="about-me text-muted-foreground flex flex-col gap-4">
     <p >
-     I&apos;m a passionate CS student obsessed with low-level systems, 
-     reverse engineering, and understanding how computers actually work.
+    I love building, breaking and working with low-level computer science. My main interests are in systems programming.
+    Currently, researching agents for security @ <Link title='Rexion' href={'https://rexion.ai/'} className='text-foreground hover:underline'> Rexion </Link> 
     </p>
     <p>
-     Currently, I&apos;m focused on low-level computer science research and
-     engineering  building tooling, breaking binaries, and going deeper into operating systems,
-     compilers, and security. <Link title='pwno io' href={'https://pwno.io/'} className='text-foreground italic hover:underline'>
-     Agentic Research Pwno. Magnificent Grants Grantee.
-     </Link> 
+    Magnificent Grants Grantee '25.
     </p>
     <p>
     </p>

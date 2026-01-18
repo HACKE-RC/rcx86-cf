@@ -12,7 +12,7 @@ const MyBlogs = () => {
     <div className="w-full py-6 pt-10">
      <div className="header pb-3">
    <p className={"text-sm text-muted-foreground"}>
-          My Blogs.
+          These are my favorite blogs that I've written:
       </p>
     
      </div>

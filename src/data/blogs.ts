@@ -1,5 +1,10 @@
  export const blogs =[
-    {
+   {
+     "title": "Agents Engineering: Context",
+     "topic": "Agent Engineering",
+     url: "https://de-engineer.github.io/Agents-Engineering-Context"
+   },
+   {
       "title": "One shotting CTF challenges with Pwno MCP Server",
       "topic": "CTF / Security Tooling",
       url:"https://pwno.io/blog/pwno-reverse-smt"
