@@ -10,7 +10,7 @@ const About = () => {
     I love building, breaking and working with low-level computer science. My main interests are in systems programming and agentic research.
     </p>
     <p>
-    Agentic Research @ Stealth. Previously @ Pwno.io
+    Agentic Research @ Stealth. Previously @ Pwno.io.
     Magnificent Grants Grantee '25.
     </p>
     <p>
