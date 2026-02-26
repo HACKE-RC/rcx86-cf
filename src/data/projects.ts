@@ -19,6 +19,12 @@
       git:"https://github.com/HACKE-RC/OptimistOS"
     },
     {
+      "name": "sx",
+      "description": "Extremely fast indexed keyword search for agents.",
+      "category": "Search / Tooling",
+      git:"https://github.com/HACKE-RC/sx"
+    },
+    {
       "name": "mallocx",
       "description": "A freestanding buddy heap allocator designed for embedded systems and operating systems.",
       "category": "Memory Management",
