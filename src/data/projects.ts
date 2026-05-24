@@ -25,10 +25,10 @@
       git:"https://github.com/HACKE-RC/sx"
     },
     {
-      "name": "mallocx",
-      "description": "A freestanding buddy heap allocator designed for embedded systems and operating systems.",
-      "category": "Memory Management",
-      git:'https://github.com/HACKE-RC/mallocx'
+      "name": "Eigen",
+      "description": "Agentic commit analysis for security.",
+      "category": "Security / Tooling",
+      git:'https://github.com/HACKE-RC/Eigen'
     },
     {
       "name": "Compiler",

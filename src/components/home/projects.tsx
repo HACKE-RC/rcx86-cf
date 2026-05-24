@@ -11,14 +11,9 @@ const font = Playfair_Display({ subsets: ["latin"] })
 const RepoStars = ({ url }: { url: string }) => {
   const { data, isPending } = useRepoStars({ url })
 
-  if (isPending) {
-    return (
-      <span className="flex items-center gap-1 text-[10px] text-muted-foreground">
-        <span className="h-[10px] w-[10px] rounded bg-muted animate-pulse" />
-        <span className="h-[10px] w-[28px] rounded bg-muted animate-pulse" />
-      </span>
-    )
-  }
+  if (!url.includes("github.com/")) return null
+  if (isPending) return null
+  if (typeof data !== "number" || data <= 50) return null
 
   return (
     <span className="text-[10px] gap-1 text-muted-foreground flex items-center">
@@ -56,12 +51,12 @@ const Project = () => {
 
                 <div className="text-muted-foreground flex pt-2 items-center gap-2">
                 {p.git && 
-                <Link title={p.name+" github repo"}  href={p.git} className="flex items-center  gap-2">
+                 <Link title={p.name+" github repo"}  href={p.git} className="flex items-center  gap-2">
                   <span className="text-[9px] tracking-wide uppercase">Github</span>
                 </Link>
                 }
                  {p.url &&
-                 <Link title={p.name+" website url"} href={p.url} className="flex items-center  gap-2">
+                 <Link href={p.url} className="flex items-center  gap-2">
                            <span className="text-[9px] tracking-wide uppercase">Live</span>
                  </Link>
                  }
