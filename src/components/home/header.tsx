@@ -1,24 +1,14 @@
 "use client";
-import { ArrowUpRightIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useTheme } from "next-themes";
 import React from "react";
 import { home_page_data } from "@/data/home";
 import { socials } from "@/data/socials";
-import { cn } from "@/lib/utils";
 
 const data = home_page_data;
 const Header = () => {
-  const { theme } = useTheme();
-
   return (
-    <div className={cn(
-      "head flex items-center w-full py-10 justify-between",
-      theme === 'dark' 
-        ? "selection:bg-zinc-300 selection:text-neutral-900"
-        : "selection:bg-neutral-800 selection:text-white"
-    )}>
+    <div className="head flex items-center w-full justify-between py-10 selection:bg-neutral-800 selection:text-white dark:selection:bg-zinc-300 dark:selection:text-neutral-900">
       <img src="/rc.avif" alt="rc" className="w-40 h-40 rounded" />
       <div className="right flex items-start justify-start flex-col">
         <h1 className="font-bold text-2xl tracking-tight  leading-none">

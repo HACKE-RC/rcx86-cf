@@ -6,7 +6,7 @@ const MyBlogs = () => {
     <div className="w-full py-6 pt-10">
       <div className="header pb-3">
         <p className={"text-sm text-muted-foreground"}>
-          Things I have written:
+          Technical things I have written
         </p>
       </div>
       <div className="blogs w-full flex flex-col gap-2">

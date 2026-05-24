@@ -28,7 +28,7 @@ const Project = () => {
   return (
     <div className="relative w-full py-6 pt-10 ">
       <p className={"text-sm text-muted-foreground"}>
-          Projects.
+          Things I have built
       </p>
 
       <div className="relative">
