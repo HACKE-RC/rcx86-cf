@@ -1,32 +1,29 @@
-import { home_page_data } from '@/data/home'
-import React from 'react'
-import Header from './header'
-import Footer from './footer'
-import Socials from './socials'
-import About from './about'
-import Project from './projects'
-import MyBlogs from './my-blogs'
-import { ModeToggle } from '@/components/mode-toggle'
-const data = home_page_data
+import { ModeToggle } from "@/components/mode-toggle";
+import About from "./about";
+import Footer from "./footer";
+import Header from "./header";
+import MyBlogs from "./my-blogs";
+import Project from "./projects";
+import Reads from "./reads";
+import Socials from "./socials";
 
 const HomePage = () => {
-  
-    
   return (
-    <main className='w-full mx-auto max-w-3xl px-4 '>
-      <div className='fixed top-5 right-5'>
-        <ModeToggle/>
+    <main className="w-full mx-auto max-w-3xl px-4 ">
+      <div className="fixed top-5 right-5">
+        <ModeToggle />
       </div>
-   <Header/>
- <About/>
-  {/* looks good but dosent fit */}
-   {/* <CtaSection/> */}
-   <Project/>
-   <MyBlogs/>
-   <Socials/>
-   <Footer/>
+      <Header />
+      <About />
+      {/* looks good but dosent fit */}
+      {/* <CtaSection/> */}
+      <Project />
+      <MyBlogs />
+      <Reads />
+      <Socials />
+      <Footer />
     </main>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
