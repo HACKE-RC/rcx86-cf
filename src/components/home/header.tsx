@@ -8,7 +8,7 @@ import { socials } from "@/data/socials";
 const data = home_page_data;
 const Header = () => {
   return (
-    <div className="head flex items-center w-full justify-between py-10 selection:bg-neutral-800 selection:text-white dark:selection:bg-zinc-300 dark:selection:text-neutral-900">
+    <div className="head flex items-center w-full justify-between py-10">
       <img src="/rc.avif" alt="rc" className="w-40 h-40 rounded" />
       <div className="right flex items-start justify-start flex-col">
         <h1 className="font-bold text-2xl tracking-tight  leading-none">

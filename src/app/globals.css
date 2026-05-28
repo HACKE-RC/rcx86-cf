@@ -122,6 +122,11 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  ::selection {
+    background: var(--accent);
+    color: var(--foreground);
+  }
 }
 
 /* ===== Sexy Scrollbar ===== */

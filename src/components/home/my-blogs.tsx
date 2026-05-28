@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from "lucide-react";
 import Link from "next/link";
 import { blogs } from "@/data/blogs";
 
@@ -28,6 +29,16 @@ const MyBlogs = () => {
             </Link>
           );
         })}
+      </div>
+      <div className="flex justify-end pt-3">
+        <Link
+          href="https://de-engineer.github.io"
+          target="_blank"
+          className="inline-flex items-center gap-1 rounded px-1.5 py-1 text-sm text-muted-foreground transition-colors hover:bg-zinc-50 hover:text-zinc-950 dark:hover:bg-zinc-900/40 dark:hover:text-zinc-50"
+        >
+          See all blogs
+          <ArrowUpRightIcon size={14} />
+        </Link>
       </div>
     </div>
   );
