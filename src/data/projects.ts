@@ -57,6 +57,12 @@ export const projects: ProjectItem[] = [
 
 export const olderProjects: ProjectItem[] = [
   {
+    name: "ttyl",
+    description: "Share your terminal session with a link!",
+    category: "Tooling",
+    git: "https://github.com/HACKE-RC/ttyl",
+  },
+  {
     name: "ctrl",
     description: "Android app which turns your phone into an MCP server.",
     category: "Mobile / Tooling",
