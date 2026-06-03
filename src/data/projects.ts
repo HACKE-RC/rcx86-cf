@@ -22,12 +22,6 @@ export const projects: ProjectItem[] = [
     git: "https://github.com/hacke-rc/bandsox",
   },
   {
-    name: "ttyl",
-    description: "Share your terminal session with a link!",
-    category: "Tooling",
-    git: "https://github.com/HACKE-RC/ttyl",
-  },
-  {
     name: "OptimistOS",
     description:
       "A hobby operating system built for fun and to deeply understand low-level computer science concepts.",
