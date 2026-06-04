@@ -23,7 +23,7 @@ const RepoStars = ({ url }: { url: string }) => {
   );
 };
 const Project = () => {
-  const visible = projects;
+  const visible = projects.filter((p) => p.name !== "ttyl");
 
   return (
     <div className="relative w-full py-6 pt-10 ">
