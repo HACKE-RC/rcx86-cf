@@ -78,7 +78,7 @@ export const metadata: Metadata = {
 
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#f4f4f5" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
+    { media: "(prefers-color-scheme: dark)", color: "#1a172b" },
   ],
 
   category: "technology",
@@ -92,7 +92,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${font.className} bg-zinc-100 dark:bg-neutral-900 antialiased`}
+        className={`${font.className} bg-zinc-100 dark:bg-background antialiased`}
       >
         <ReactQueryProvider>
           <ThemeProvider
