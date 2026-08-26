@@ -6,21 +6,6 @@ export type ReadItem = {
 
 export const reads: ReadItem[] = [
   {
-    title: "How to Fail at Almost Everything and Still Win Big",
-    url: "https://www.youtube.com/watch?v=uy6-fq8PwNk",
-    kind: "watching",
-  },
-  {
-    title: "24 Cognitive Biases",
-    url: "https://www.youtube.com/watch?v=IRfv49wTkfw",
-    kind: "watching",
-  },
-  {
-    title: "Pmarca Guide to Career Planning: Introduction",
-    url: "https://pmarchive.com/guide_to_career_planning_part0.html",
-    kind: "reading",
-  },
-  {
     title: "The Melting Ice Cube, Airchat & Pieter Levels",
     url: "https://www.littlealmanack.com/p/the-melting-ice-cube-airchat-and?open=false#%C2%A7best-book-passage-no-context-needed",
     kind: "reading",
@@ -106,16 +91,21 @@ export const reads: ReadItem[] = [
     kind: "reading",
   },
   {
-    title: "294 The Five Laws Of Stupidity",
-    url: "https://youtu.be/3O9FFrLpinQ",
-    kind: "watching",
+    title: "How to Become a Mathematical Genius",
+    url: "https://www.butthistime.com/p/how-to-become-a-mathematical-genius",
+    kind: "reading",
+  },
+  {
+    title: "Does One Have to Be a Genius to Do Maths?",
+    url: "https://terrytao.wordpress.com/career-advice/does-one-have-to-be-a-genius-to-do-maths/",
+    kind: "reading",
   },
 ];
 
 export const featuredReads: ReadItem[] = [
-  reads[5],
-  reads[16],
-  reads[12],
-  reads[7],
+  reads[2],
+  reads[13],
+  reads[9],
   reads[4],
+  reads[1],
 ];
