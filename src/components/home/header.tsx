@@ -12,7 +12,9 @@ const Header = () => {
       <img src="/rc.avif" alt="rc" className="w-40 h-40 rounded" />
       <div className="right flex items-start justify-start flex-col">
         <h1 className="font-bold text-2xl tracking-tight  leading-none">
-          {data.name}
+          <span className="isolate list-none opacity-100 visible ease-out mx-0 inline static h-auto antialiased">
+            {data.name}
+          </span>
         </h1>
 
         <div className="socials flex items-center flex-wrap gap-2 w-full pb-4 pt-1 ">
