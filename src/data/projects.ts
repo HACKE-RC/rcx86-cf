@@ -96,6 +96,12 @@ export const olderProjects: ProjectItem[] = [
     git: "https://github.com/HACKE-RC/vm-translator",
   },
   {
+    name: "lc",
+    description: "List sessions by different coding agents.",
+    category: "CLI / Tooling",
+    git: "https://github.com/HACKE-RC/lc",
+  },
+  {
     name: "lldb_mcp",
     description: "LLDB MCP server.",
     category: "Debugger / Tooling",
